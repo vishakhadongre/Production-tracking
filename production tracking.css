@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the hero section */
+.hero {
+  padding: 50px 0; /* Add some padding to the top and bottom */
+}
+
+/* Center the text in the right-side column */
+.hero .col-md-6 .col-lg-6-:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero img{
+   width: 200px;
+   margin-top: 40px;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    background-color: orangered;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  .hero h1{
+    margin-top: 2px;
+    font-size: 49px;
+  }
+  .hero p{
+    font-size: 29px;
+    margin-top: 15px;
+  }
+  .card{
+    margin-bottom: 5px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.card{
+    overflow: hidden;
+    margin-bottom: 10px;
+    line-height: 25px;
+    min-height: 100px;
+    font-size: 18px;
+    display: inline-flexbox;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 16px 14px;
+}
+.card-body{
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.card p{
+  margin-top: 10px;
+}
+.card h2{
+  padding-bottom: 3px;
+  font-size: 26px;
+}
+.content{
+    padding: 20px 20px 10px;
+}
+.card{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
